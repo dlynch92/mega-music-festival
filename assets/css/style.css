@@ -1,3 +1,4 @@
+/* ----------- GENERAL -------------- */
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +12,8 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/* ----------- HEADER -------------- */
 
 #logo {
     color: white;
@@ -39,11 +42,21 @@ a {
     padding: 5px 20px;
     flex-grow: 1;
     text-align: center;
- 
-
 }
 
+#navigation a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Changes nav bar color of the section the user is on */
 .current-page{
     color: black;
     background-color: white;
 }
+
+/* ----------- BODY -------------- */
+
+/* ----------- FOOTER -------------- */
+
+/* ----------- MEDIA QUERIES -------------- */
