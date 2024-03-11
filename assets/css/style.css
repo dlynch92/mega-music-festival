@@ -7,6 +7,11 @@ body {
     background-color: black;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #logo {
     color: white;
     text-align: center;
@@ -15,7 +20,7 @@ body {
 
 #hero {
     background: url("../images/hero.webp") no-repeat center center/cover;
-    height: 400px;
+    height: 300px;
     width: 100%;
 }
 /* Nav bar */
@@ -23,13 +28,22 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 0px;
+    margin-top: 5px;
     padding-bottom: 0px;
     background-color: black;
     color: white;
 }
 
-#navigation p {
+#navigation a {
     border: 2px solid white;
     padding: 5px 20px;
+    flex-grow: 1;
+    text-align: center;
+ 
+
+}
+
+.current-page{
+    color: black;
+    background-color: white;
 }
