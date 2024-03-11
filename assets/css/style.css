@@ -3,3 +3,18 @@
     height: 500px;
     width: 100%;
 }
+
+#navigation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: black;
+    color: white;
+}
+
+#navigation p {
+    border: 2px solid white;
+    padding: 5px 20px;
+}
