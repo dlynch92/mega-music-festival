@@ -45,13 +45,6 @@ a {
     background-color: black;
     color: white;
     display:flex;
-    width: 100%;
-}
-
-#navigation > * {
-    font-family: "Metal Mania", system-ui;
-    font-weight: 400;
-    font-style: normal;
 }
 
 #navigation a {
@@ -80,7 +73,6 @@ a {
     flex: 1 0 300px;
     border: 2px solid white;
 }
-
 
 /* Changes nav bar color of the section the user is on */
 .current-page{
