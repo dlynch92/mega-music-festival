@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* ----------- GENERAL -------------- */
 * {
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 body {
@@ -34,6 +39,13 @@ a {
     padding-bottom: 0px;
     background-color: black;
     color: white;
+    display:flex
+}
+
+#navigation > * {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #navigation a {
@@ -49,18 +61,18 @@ a {
 
 .header-flex{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .nav-flex{
     flex-grow: 1;
-    align-self: flex-start;
 }
 
 .logo-flex{
-    flex: 1 1 330px;
+    flex: 1 0 300px;
+    border: 2px solid white;
 }
 
 
