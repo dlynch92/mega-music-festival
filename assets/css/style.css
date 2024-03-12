@@ -8,6 +8,7 @@
     font-weight: 400;
     font-style: normal;
     color: white;
+  
 }
 
 body {
@@ -31,12 +32,6 @@ a {
     
 }
 
-#hero {
-    background: url("../images/hero.webp") no-repeat center center/cover;
-    height: 300px;
-    width: 100%;
-    
-}
 /* Nav bar */
 
 #navigation {
@@ -70,7 +65,7 @@ a {
 }
 
 .logo-flex{
-    flex: 1 0 300px;
+    flex: 1 1 300px;
     border: 2px solid white;
 }
 
@@ -81,6 +76,13 @@ a {
 }
 
 /* ----------- BODY -------------- */
+
+#hero {
+    background: url("../images/hero.webp") no-repeat center center/cover;
+    height: 300px;
+    width: 100%;
+    
+}
 
 /* ----------- FOOTER -------------- */
 
