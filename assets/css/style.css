@@ -7,13 +7,18 @@
     font-family: "Metal Mania", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: #fdffff;
   
 }
 
 body {
+    background-image: linear-gradient(black,#151515);
+    /*backup if gradient not supported */
     background-color: black;
- 
+}
+
+.background-gradient{
+    background-image: linear-gradient(black,#492359);
 }
 
 a {
@@ -56,20 +61,20 @@ a {
 #navigation {
     margin-top: 5px;
     padding-bottom: 0px;
-    background-color: black;
-    color: white;
+    background-color: #151515;
+    color: #fdffff;
     display:flex;
 }
 
 #navigation a {
-    border: 2px solid white;
+    border: 2px solid #fdffff;
     padding: 5px 20px;
     text-align: center;
 }
 
 #navigation a:hover {
-    background-color: white;
-    color: black;
+    background-color: #fdffff;
+    color: #151515;
 }
 
 .header-flex{
@@ -85,13 +90,13 @@ a {
 
 .logo-flex{
     flex: 1 1 300px;
-    border: 2px solid white;
+    border: 2px solid #fdffff;
 }
 
 /* Changes nav bar color of the section the user is on */
 .current-page{
-    color: black;
-    background-color: white;
+    color: #151515;
+    background-color: #fdffff;
 }
 
 /* ----------- BODY -------------- */
