@@ -24,6 +24,25 @@ a {
 .center-text{
     text-align: center;
 }
+
+.right-text{
+    text-align: right;
+    padding-right: 7px;
+}
+
+.left-text{
+    text-align: left;
+    padding-left: 7px;
+}
+
+.body-text-font{
+    font-family: "Roboto", sans-serif;
+    font-weight: 250;
+}
+
+.hide-header{
+    visibility: hidden;
+}
 /* ----------- HEADER -------------- */
 
 #logo {
