@@ -24,7 +24,7 @@ body {
 }
 
 
-h3{
+h1,h3{
     color:#848896;
 }
 
@@ -65,7 +65,7 @@ a {
 /* ----------- HEADER -------------- */
 
 #logo {
-    color: white;
+    color: #fdffff;
     text-align: center;
     
 }
@@ -87,8 +87,8 @@ a {
 }
 
 #navigation a:hover {
-    background-color: #fdffff;
-    color: #151515;
+    background-color: #492359;
+
 }
 
 .header-flex{
@@ -109,8 +109,8 @@ a {
 
 /* Changes nav bar color of the section the user is on */
 .current-page{
-    color: #151515;
-    background-color: #fdffff;
+    color: #fdffff;
+    background-color: #492359;
 }
 
 /* ----------- BODY -------------- */
