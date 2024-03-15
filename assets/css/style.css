@@ -28,6 +28,8 @@ body {
 h1,
 h3 {
     color: #848896;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 a {
@@ -38,6 +40,8 @@ a {
 p {
     font-family: "Roboto", sans-serif;
     font-weight: 250;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .background-gradient {
@@ -70,6 +74,7 @@ p {
 #logo {
     color: #fdffff;
     text-align: center;
+    margin: 0;
 
 }
 
