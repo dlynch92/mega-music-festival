@@ -142,6 +142,12 @@ width: 90%;
 max-width: 500px;
 }
 
+#map{
+    padding-bottom: 15px;
+    padding-top: 10px;
+    position: relative;
+}
+
 .paragraph-break-image {
 border-radius: 50%;
 border: 5px border black;
