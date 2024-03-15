@@ -167,7 +167,8 @@ text-align: center;
 width: 70%;
 margin: 15px auto;
 padding: 15px;
-    
+max-width: 500px;   
+
 }
 .paragraph-break-image {
 border-radius: 50%;
@@ -235,5 +236,21 @@ form input, select{
         font-size: 28px;
     }
 
+    #application-flex{ 
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 30px;
+    }
 
+    #ticket-application-form{
+        flex-grow: 1;
+        flex-basis: 500px;
+        min-width: 400px;
+        margin-left: 20px;
+    }
+
+    #application-flex aside {
+        margin-right: 20px;
+    }
 }
