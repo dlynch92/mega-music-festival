@@ -169,5 +169,14 @@ max-width: 500px;
     gap: 10px;
     list-style-type: none;
     padding-top: 1rem;
+    padding-bottom: .3rem;
+    margin-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+
+.copyright-info p {
+    font-family: "Roboto", sans-serif;
+    font-size: 8px;
+ 
 }
 /* ----------- MEDIA QUERIES -------------- */
