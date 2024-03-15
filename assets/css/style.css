@@ -160,6 +160,14 @@ padding-top: 10px;
 position: relative;
 }
 
+#ticket-application-form{
+color: #fdffff;
+background-color: rgb(15, 15, 15, .5);
+padding: 15px;
+margin: 10px 0px;
+text-align: center;
+    
+}
 .paragraph-break-image {
 border-radius: 50%;
 border: 5px border black;
