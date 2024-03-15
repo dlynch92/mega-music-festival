@@ -64,7 +64,6 @@ p {
     padding-left: 7px;
 }
 
-
 .hide-header {
     visibility: hidden;
 }
@@ -122,6 +121,7 @@ p {
 
 /* ----------- BODY -------------- */
 
+/*hero images for different pages*/
 #hero {
     background: url("../images/hero.webp") no-repeat center center/cover;
     height: 300px;
@@ -132,6 +132,14 @@ p {
 
 #hero-tickets {
     background: url("../images/hero-tickets.webp") no-repeat center center/cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+
+}
+
+#hero-gallery {
+    background: url("../images/hero-gallery.webp") no-repeat center center/cover;
     height: 300px;
     width: 100%;
     position: relative;
