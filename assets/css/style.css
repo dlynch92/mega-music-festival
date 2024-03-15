@@ -104,7 +104,7 @@ a {
 }
 
 .logo-flex{
-    flex: 1 1 300px;
+    flex: 1 1 600px;
     border: 2px solid #fdffff;
 }
 
@@ -180,3 +180,8 @@ max-width: 500px;
  
 }
 /* ----------- MEDIA QUERIES -------------- */
+/*large and landscape phones*/
+@media screen and (min-width: 576px) {
+    .logo-flex{
+        flex: 1 1 280px;
+}
