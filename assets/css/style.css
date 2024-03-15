@@ -94,13 +94,12 @@ a {
 
 .header-flex{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
 .nav-flex{
     flex-grow: 1;
+    
 }
 
 .logo-flex{
@@ -183,5 +182,19 @@ max-width: 500px;
 /*large and landscape phones*/
 @media screen and (min-width: 576px) {
     .logo-flex{
-        flex: 1 1 280px;
+        flex: 2 1 280px;
+    }
+}
+
+/*laptops and desktops*/
+@media screen and (min-width: 992px) {
+    .logo-flex{
+        flex: 2 1 500px;
+    }
+    
+    #navigation {
+        font-size: 28px;
+    }
+
+
 }
