@@ -290,16 +290,18 @@ select {
     #flex-index a>img {
         min-width: 525px;
         max-height: 700px;
-        margin-left: 15px;
+        margin-left: 50px;
     }
 
     /*enables displaying the text+circular pictures vertically alongside the poster*/
-    #sub-flex{
-        display:flex;
+    #sub-flex {
+        display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         height: 650px;
+        margin-top: 30px;
     }
+
     /*2024 ticket waitlist*/
     .about-us-text:nth-of-type(1) {
         text-align: center;
@@ -319,11 +321,10 @@ select {
         order: 5;
     }
 
-    #circle-1, #circle-2 {
+    #circle-1,
+    #circle-2 {
         display: none;
     }
-      
-
 
     .paragraph-break-image {
         height: 15vw;
@@ -348,5 +349,17 @@ select {
 
     #application-flex aside {
         margin-right: 20px;
+    }
+}
+
+/*large desktop displays*/
+@media screen and (min-width: 1200px) {
+
+    #flex-index a>img {
+        margin-left: 160px;
+    }
+
+    #sub-flex {
+        margin-right: 160px;
     }
 }
