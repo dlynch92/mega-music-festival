@@ -44,12 +44,19 @@
 
         <section id="ticket-application">
             <form id="ticket-application-form" method="GET" action="">
-                <label for="name">Full Name</label><br>
+                <label for="name">Full Name:</label><br>
                 <input id="name" type="text" placeholder="..." name="name" required><br><br>
                 <label for="email">Email Address:</label><br>
                 <input id="email" type="email" placeholder="@" name="email" required> <br><br>
                 <label for="dob">Date of Birth:</label><br>
                 <input id="dob" type="date" name="dob" required> <br><br>
+                <label for="quantity">Amount of tickets:</label><br>
+                <select name="quantity" id="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select> <br><br>
                 <input type="submit" value="Apply" class="form-button">
                 <input type="reset" value="Clear Form" class="form-button">
             </form>
