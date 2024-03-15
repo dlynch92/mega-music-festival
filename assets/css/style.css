@@ -180,10 +180,16 @@ width: 80%;
 max-width: 500px;
 }
 
+/*style form elements on ticket page*/
+
 .form-button {
-background: black;
 height: 40px;
 width: 100px;
+}
+
+form input, select{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
 }
 
 /* ----------- FOOTER -------------- */
