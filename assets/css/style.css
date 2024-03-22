@@ -174,7 +174,7 @@ p > a{
 /*google map embed*/
 #map {
     padding-bottom: 15px;
-    padding-top: 10px;
+    padding-top: 3px;
     position: relative;
 }
 
@@ -182,6 +182,7 @@ p > a{
     width: 100%;
     height: 250;
 }
+
 
 #ticket-application-form {
     color: #fdffff;
@@ -194,18 +195,47 @@ p > a{
     border: 3px solid black;
     box-shadow: 0px 2px 5px white;
 }
-
 .paragraph-break-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.paragraph-break-image > img {
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
-    width: 90vw;
-    height: 90vw;
-    max-width: 200px;
-    max-height: 200px;
+    width: 80vw;
+    height: 80vw;
+    max-width: 180px;
+    max-height: 180px;
+    border: 2px solid #492359;
 
+}
+#sub-flex{
+    display: flex;
+    flex-direction: column;
+}
+#waitlist {
+    order: 1;
+}
+
+#fastest-growing {
+    order: 3;
+}
+
+#family-owned {
+    order: 5;
+}
+
+#circle-1 {
+    order: 2;
+}
+
+#circle-2 {
+    order: 4;
 }
 
 /*style form elements on ticket page*/
@@ -280,6 +310,12 @@ select {
 
 /*laptops and desktops*/
 @media screen and (min-width: 992px) {
+
+    
+section > h3 {
+    margin-top: 30px;
+}
+
     .logo-flex {
         flex: 2 1 500px;
     }
@@ -307,38 +343,26 @@ select {
         flex-direction: column;
         justify-content: space-evenly;
         height: 650px;
-        margin-top: 30px;
+
     }
 
     /*2024 ticket waitlist*/
     .about-us-text:nth-of-type(1) {
         text-align: center;
-        order: 1;
         padding-top: 20px;
     }
 
     /*fastest growing festival in the uk*/
-    .about-us-text:nth-of-type(3) {
+    .about-us-text:nth-of-type(2) {
         text-align: center;
-        order: 3;
     }
 
     /*community driven*/
-    .about-us-text:nth-of-type(5) {
+    .about-us-text:nth-of-type(3) {
         text-align: center;
-        order: 5;
     }
 
-    #circle-1,
-    #circle-2 {
-        display: none;
-    }
 
-    .paragraph-break-image {
-        height: 15vw;
-        width: 15vw;
-        order: 5
-    }
 
     /*ticket application & text below*/
     #application-flex {
@@ -361,7 +385,7 @@ select {
 }
 
 /*large desktop displays*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
 
     #flex-index a>img {
         margin-left: 160px;
