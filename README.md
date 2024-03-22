@@ -170,25 +170,25 @@ Several performance issues mostly stemming from filesizes being too big were als
 <details>
 <summary>Home Page</summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-main-mobile.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-main-mobile.png)
 </details>
 
 <details>
 <summary>Tickets</summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-tickets-mobile.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-tickets-mobile.png)
 </details>
 
 <details>
 <summary>Thank You</summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-thankyou-mobile.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-thankyou-mobile.png)
 </details>
 
 <details>
 <summary>Gallery</summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-gallery-mobile.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-gallery-mobile.png)
 </details>
 
 
@@ -197,25 +197,25 @@ Several performance issues mostly stemming from filesizes being too big were als
 <details>
 <summary>Home Page</summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-main-desktop.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-main-desktop.png)
 </details>
 
 <details>
 <summary>Tickets</summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-tickets-desktop.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-tickets-desktop.png)
 </details>
 
 <details>
 <summary>Thank You</summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-thankyou-desktop.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-thankyou-desktop.png)
 </details>
 
 <details>
 <summary>Gallery</summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-gallery-desktop.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-gallery-desktop.png)
 </details>
 
 ### Manual Testing
