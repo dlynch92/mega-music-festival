@@ -175,6 +175,11 @@ p {
     position: relative;
 }
 
+#map > iframe {
+    width: 100%;
+    height: 250;
+}
+
 #ticket-application-form {
     color: #fdffff;
     background-color: rgb(73, 35, 89, .3);
