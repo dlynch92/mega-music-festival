@@ -6,16 +6,15 @@ The index page shows the announced bands via a poster as well as some informatio
 
 Links to social media are on the footer of each page where users can contact the festival organisers with any queries they may have.
 
-[View Mega Music Festival live project here](https://dlynch92.github.io/mega-music-festival/)
+![Am I Responsive](/assets/images/am-i-responsive.webp)
+
+[Mega Music Festival live project](https://dlynch92.github.io/mega-music-festival/)
 - - -
 ## Table of Contents
 
 ### [User Experience (UX)](#user-experience-ux-1)
-* [User Stories](#user-stories)
 ### [Design](#design-1)
-### [Features](#features)
-* [Existing Features](#existing-features)
-### [Features Left to Implement](#features-left-to-implement-1)
+### [Features](#features-1)
 ### [Technologies Used](#technologies-used-1)
 ### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
 ### [Testing](#testing-1)
@@ -30,6 +29,119 @@ Links to social media are on the footer of each page where users can contact the
 ### [Acknowledgements](#acknowledgements-1)
 ---
 
+## User Experience (UX)
+
+This website is designed to be attractive to people who are into metal and industrial music and who would be likely to attend a festival hosting music of that type.
+
+At the top of each page is a navigation bar that is consistent throughout the pages that allows users to navigate to the various pages of the website.
+
+Users purpose on the site may be different if they are a first time user or a returning user, the purpose of these different user groups are identified as follows: 
+
+* First-time visitors
+    * Quickly establish the purpose of the website.
+    * Learn of the bands that will be playing.
+    * Navigate using the navigation bar to the various pages and learn about the festival.
+    * Apply for tickets if they are sufficiently interested.
+
+* Returning visitors
+    * Check the bands that are playing and see if there are new ones since their last visit.
+    * Use the google maps iframe to plan how to get to the festival if they are planning on going.
+    * See if any further information has been posted regarding the festival and ticket aquisition.
+    * If they hadn't previously they will also be able to apply for tickets if they are sufficiently interested.
+---
+
+## Design
+
+I designed the website mobile first as I felt it would be easier to expand to larger screens than to shrink content to smaller ones.  
+
+When submitting the ticket form users are taken to the thank-you page that is identical to the ticket page except for the form, which disappears and is replaced by a thank you message. I thought this would be good and intuitive as it would give the impression users have not left the ticket page as only the form had been submitted.
+
+As the website is simple and static I did not create any proper wireframes, however I did draw very basic concepts for a mobile layout showing the header / content / footer on pen and paper.
+
+ * Colour Scheme
+    * The colours used on the website are as follows:
+    ![Colour Palette](/assets/images/palette.PNG)
+    * Colour palette was generated with the help of [Colormind.io](http://colormind.io/)
+
+ * Typography
+    * Headers used the Metal Mania font with a fallback of system-ui if it failed to import.
+    * Paragraphs and other content used the Roboto font with a fallback of sans-serif if it failed to import.
+ 
+---
+
+## Features
+
+ * A simply to navigate website aimed at people who enjoy metal and industrial music and who may want to attend a festival of that music.
+ * The user can fill out a form to show their interest in obtaining tickets.
+ * Interactable Google Maps iframe showing where the festival will be held.
+ * The background on each page is a subtle gradient starting below the hero image at black and slowly changing to a dark purple. Originally the background was to be all black but this looked boring and so I thought to include a gradient that would subtly change the visual style of the page the further the user went down.
+ * Responsive on all device sizes.
+
+### Navigation Bar
+![Navigation Bar](/assets/images/nav-bar.png)
+* The navigation bar is present on every page and shows in a different colour which page the user is currently on.
+* Links to the home page, ticket page and gallery.
+* Does not link to the thank you page that is accessed after submitting the form, and this page is designed to look identical to the ticket page. From a users' perspective it is like that haven't left the ticket page and so including the thank you page on the nav bar would detract from this idea and not serve a purpose.
+
+### Hero Image
+![Hero Image](/assets/images/readme-hero.png)
+* A different hero image is present on each page to add variety and keep the user visually engaged.
+* The image is the same size on each page for consistency.
+* Over the image is some text - on the homepage (shown above) it shows a general message of ticket waitlist now available, which sums up the current purpose of the website in that we want users to sign up to the ticket waitlist. The other pages show a more specialised message that sums up the purpose of that particular page. 
+
+### Google Maps iframe
+![Google Maps](/assets/images/google-map.png)
+* At the bottom of the index page is an interactable Google Maps iframe that spans the width of the page in order to assist the user in planning how they would get to the festival.
+* Clicking the View Larger Map button opens the map on a seperate tab.
+
+### Footer
+![Footer](/assets/images/footer.png)
+* The footer is identical on each page for consistency.
+* The icons of the various social media buttons and clickable and will link the user to the relevant social media webpage.
+* Clicking on a button opens the page in a new window.
+* Displays copyright information below social media links
+
+### Ticket Form
+![Footer](/assets/images/ticket-form.png)
+* Displays on the ticket page and is for the user to enter their details to apply for tickets.
+* All fields are required.
+* Email address field includes validation to ensure an email address has been entered in the correct formatting.
+* A user is able to apply maximum of 4 tickets as is referenced throughout the website - when picking how many tickets the user will want only the options 1-4 are displayed.
+* Clicking Apply submits the data if all fields are entered correctly and transports the user to the thank-you page, which functionally looks the same as the ticket page except for the form itself which now displays a message saying they will recieve an email shortly.
+* Clear form resets all data to their defaults.
+
+## Gallery
+![Gallery](/assets/images/gallery.png)
+* A responsive page using flexbox that shows images from past editions of the festival designed to entice users into signing up for tickets.
+* On viewports below 400px only 1 image will display per row.
+---
+
+## Technologies Used
+
+ * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+ * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+---
+
+## Frameworks, Libraries & Programs Used
+
+ * [Visual Studio Code](https://code.visualstudio.com/)
+    * To write the code.
+ * [Git](https://git-scm.com/)
+    * for version control.
+ * [Github](https://github.com/)
+    * Deployment of the website and storing the files online.
+ * [Google Fonts](https://fonts.google.com/)
+    * Import fonts for the website.
+* [Am I Responsive](https://ui.dev/amiresponsive)
+    * Mockup picture for the README file.
+* [Font Awesome](https://fontawesome.com/kits)
+    * Icons used throughout the website.
+---
+
+## Testing
+
+---
 
 ## Deployment and local development
 
@@ -60,5 +172,19 @@ By forking the repository, we make a copy of the original repository on our GitH
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type `git clone` and then paste The URL copied in the step 3.
 7. Press Enter and your local clone will be created.
-
 ---
+
+## Credits
+
+* All code written by myself
+* Stock images royalty free from [Pexels](https://www.pexels.com/)
+* Lineup poster created with [Festival Poster Generator](https://festivalpostergenerator.com/)
+* README template provided by [Thomas-Tomo - Lunar-Escape](https://github.com/Thomas-Tomo/Lunar-Escape/blob/main/README.md)
+* Favicon generated with  [Favicon.io](https://favicon.io/)
+---
+
+## Acknowledgements
+
+* My mentor Mitko Bachvarov for tips and encouragement.
+* [Flexbox Zombies](https://mastery.games/flexboxzombies/) by Mastery Games for a very helpful game that helped me learn Flexbox.
+* [css-tricks.com](https://css-tricks.com/adaptive-photo-layout-with-flexbox/) for the idea of putting gallery images as an unordered list.
