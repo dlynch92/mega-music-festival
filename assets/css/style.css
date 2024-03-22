@@ -363,3 +363,17 @@ select {
         margin-right: 160px;
     }
 }
+
+/* make gallery images on smaller screens only have 1 per row */
+  @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+
+    #gallery-list li {
+      height: auto;
+      width: 100%;
+    }
+  
+    #gallery-list img {
+      width: 100%;
+      max-height: 70vh;
+    }
+  }
