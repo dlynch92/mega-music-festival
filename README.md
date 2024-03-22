@@ -60,7 +60,7 @@ As the website is simple and static I did not create any proper wireframes, howe
 
  * Colour Scheme
     * The colours used on the website are as follows:
-    ![Colour Palette](/assets/images/palette.PNG)
+    ![Colour Palette](/assets/images/palette.png)
     * Colour palette was generated with the help of [Colormind.io](http://colormind.io/)
 
  * Typography
@@ -140,6 +140,25 @@ As the website is simple and static I did not create any proper wireframes, howe
 ---
 
 ## Testing
+
+I tested the website with three seperate methods. Firstly, each page was ran through the W3C validator. Secondly I ran a Lighthouse Report in order to see an analysis of how each page performed.
+
+Lastly was manual testing - this was a case of me running the website and resizing it on different browsers and OS to ensure everything on the page worked as in different environments. I will go more in depth with each of these below.
+
+### Validation
+
+ * HTML pages were validated using the [W3C Markup Validtor](https://validator.w3.org/)
+ * The style.css sheet was validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+ All four html pages and the stylesheet display no errors.
+
+ ![HTML Validator showing no errors](/assets/images/validator-no-errors.png)
+
+ ![CSS Validator showing no errors](/assets/images/validator-css-no-errors.png)
+
+### Bugs fixed: 
+* Links to social media pages in footer of each page weren't working. I was using for example www.facebook.com which is still a relative filepath - changing these links on each page to include https:// made it absolute and fixed the issue, they now work as intended.
+
 
 ---
 
