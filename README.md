@@ -18,9 +18,10 @@ Links to social media are on the footer of each page where users can contact the
 ### [Technologies Used](#technologies-used-1)
 ### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
 ### [Testing](#testing-1)
-* [Validation Results](#validation-results)
+* [Validation Results](#validation)
+* [Lighthouse Report](#lighthouse)
 * [Manual Testing](#manual-testing)
-* [Lighthouse Report](#lighthouse-report)
+* [Bugs Fixed](#bugs-fixed)
 ### [Deployment and local development](#deployment-and-local-development-1)
 * [GitHub Pages](#github-pages)
 * [Forking the GitHub Repository](#forking-the-github-repository)
@@ -156,10 +157,75 @@ Lastly was manual testing - this was a case of me running the website and resizi
 
  ![CSS Validator showing no errors](/assets/images/validator-css-no-errors.png)
 
-### Bugs fixed: 
+### Lighthouse
+
+During testing with lighthouse I found several accessibility issues that I fixed.
+  * Added a title to the Google Maps iframe
+  * Added aria-title to the social media links
+
+Several performance issues mostly stemming from filesizes being too big were also pointed out to me - I reduced the dimensions of the poster and the index circular images in order to help with this.
+
+#### Mobile Analysis
+
+<details>
+<summary>Home Page</summary>
+
+![Home Page lighthouse report](/assets/images/lighthouse-main-mobile.PNG)
+</details>
+
+<details>
+<summary>Tickets</summary>
+
+![Home Page lighthouse report](/assets/images/lighthouse-tickets-mobile.PNG)
+</details>
+
+<details>
+<summary>Thank You</summary>
+
+![Home Page lighthouse report](/assets/images/lighthouse-thankyou-mobile.PNG)
+</details>
+
+<details>
+<summary>Gallery</summary>
+
+![Home Page lighthouse report](/assets/images/lighthouse-gallery-mobile.PNG)
+</details>
+
+
+#### Desktop Analysis
+
+<details>
+<summary>Home Page</summary>
+
+![Home Page lighthouse report](/assets/images/lighthouse-main-desktop.PNG)
+</details>
+
+<details>
+<summary>Tickets</summary>
+
+![Home Page lighthouse report](/assets/images/lighthouse-tickets-desktop.PNG)
+</details>
+
+<details>
+<summary>Thank You</summary>
+
+![Home Page lighthouse report](/assets/images/lighthouse-thankyou-desktop.PNG)
+</details>
+
+<details>
+<summary>Gallery</summary>
+
+![Home Page lighthouse report](/assets/images/lighthouse-gallery-desktop.PNG)
+</details>
+
+### Manual Testing
+* Tests were carried out on Windows 11 using the Google Chrome and Microsoft Edge browsers.
+* Tests were carries out on MacOS 11 using the Google Chrome and Safari Browser
+* The website was viewed using Chrome dev tools in various different screen sizes to ensure everything looked as it should on mobile and tablet devices.
+* All internal and external links were tested to ensure they open correctly - internal links on the same tab and external in a new tab.
+
+### Bugs Fixed
 * Links to social media pages in footer of each page weren't working. I was using for example www.facebook.com which is still a relative filepath - changing these links on each page to include https:// made it absolute and fixed the issue, they now work as intended.
-
-
 ---
 
 ## Deployment and local development
