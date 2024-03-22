@@ -226,6 +226,7 @@ Several performance issues mostly stemming from filesizes being too big were als
 
 ### Bugs Fixed
 * Links to social media pages in footer of each page weren't working. I was using for example www.facebook.com which is still a relative filepath - changing these links on each page to include https:// made it absolute and fixed the issue, they now work as intended.
+* The aspect ratio of the Circle images on the home page were slightly incorrect - I fixed this by setting height, width and aspect ratio to auto.
 ---
 
 ## Deployment and local development
