@@ -48,6 +48,9 @@ p {
     margin-right: 5px;
 }
 
+p > a{
+    font-family: "Roboto", sans-serif;
+}
 .background-gradient {
     background-image: linear-gradient(black, #2a1533);
     /*backup if gradient not supported */
